@@ -53,3 +53,19 @@ const users = [
   },
 ];
 console.log(users[0].id); //1
+
+let mineWebsite = {
+  name: "Maisum",
+  Age: 17,
+  emailId: "maisum@gmail.com",
+  mobNo: "0343-4422584",
+};
+console.log(mineWebsite);
+console.log(Object.keys(mineWebsite)); //It prints all the keys of the mentioned object in an array form like [ 'name', 'Age', 'emailId', 'mobNo' ]
+console.log(Object.values(mineWebsite)); //only display values of the object in array form like [ 'Maisum', 17, 'maisum@gmail.com', '0343-4422584' ]
+console.log(Object.entries(mineWebsite)); //It shows the entire entries and each entries will be shown in an array form one by one like [[ 'name', 'Maisum' ],[ 'Age', 17 ], [ 'emailId', 'maisum@gmail.com' ],[ 'mobNo', '0343-4422584' ]]
+
+//We can also ask to the object that it is present or not in object like
+console.log(mineWebsite.hasOwnProperty("isLoggedIn")); //false
+console.log(mineWebsite.hasOwnProperty("name")); //true
+console.log(mineWebsite.hasOwnProperty("Maisum")); //we can only ast in this scenario to the key reference not the value like above 'Maisum (It is value of mineWebsite name)'
