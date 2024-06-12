@@ -4,17 +4,16 @@ const course = {
   price: "999",
   courseInstructor: "Aqdas Ali",
 };
-/* 
-console.log(course.courseInstructor);//Aqdas Ali
 
-Destructure the object mostly used in React
+// console.log(course.courseInstructor);//Aqdas Ali
+
+//Destructure the object mostly used in React
 const { courseInstructor } = course;
 console.log(courseInstructor); //Aqdas Ali
 
-we can also change or destructure the key name of an object like
+//we can also change or destructure the key name of an object like
 const { courseInstructor: Instructor } = course;
 console.log(Instructor); //Aqdas Ali
-*/
 
 /*In React we use destructuring like this
  const navbar = ({ company }) => {
@@ -32,7 +31,7 @@ navbar((company = "Ali"));
 }
 */
 
-/*Api's with Arrays in objects syntax like
+//Api's with Arrays in objects syntax like
 [
   {},
   {},
@@ -106,4 +105,3 @@ navbar((company = "Ali"));
     "version": "1.4"
   }
 }
-*/
