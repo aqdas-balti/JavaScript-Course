@@ -52,14 +52,14 @@ function userLoggedIn2(username2) {
   }
   return `${username2} Is Logged In`;
 }
-// console.log(userLoggedIn2()); /*Please Enter Your Name
-// undefined Is Logged In */
-// console.log(userLoggedIn2("Aqdas Ali G"));
-// console.log("Fifth Function Ends");
+console.log(userLoggedIn2()); /*Please Enter Your Name
+undefined Is Logged In */
+console.log(userLoggedIn2("Aqdas Ali G"));
+console.log("Fifth Function Ends");
 
-// //By default name
-// function userLoggedIn3(username3 = "David") {
-//   return `${username3} Is Logged In`;
-// }
-// console.log(userLoggedIn3()); //David Is Logged In
-// console.log(userLoggedIn3("Aqdas Ali G"));
+//By default name
+function userLoggedIn3(username3 = "David") {
+  return `${username3} Is Logged In`;
+}
+console.log(userLoggedIn3()); //David Is Logged In
+console.log(userLoggedIn3("Aqdas Ali G"));
