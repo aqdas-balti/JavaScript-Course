@@ -20,11 +20,11 @@ const user = {
   price: 200,
 };
 
-function handleObject(anyobject) {
-  console.log(
-    `Username is ${anyobject.userName} and Price is ${anyobject.price} `
-  );
-}
+// function handleObject(anyobject) {
+//   console.log(
+//     `Username is ${anyobject.userName} and Price is ${anyobject.price} `
+//   );
+// }
 handleObject(user);
 console.log(typeof user); //object
 //Direct Pass the object into the function
