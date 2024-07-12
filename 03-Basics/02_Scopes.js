@@ -16,7 +16,3 @@ if (true) {
 //console.log(b);
 console.log("Outer a is: ", a);
 console.log("Var Scope Outer: ", c);
-
-for (let i = 0; i < array.length; i++) {
-  const element = array[i];
-}
