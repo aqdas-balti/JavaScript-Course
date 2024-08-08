@@ -56,7 +56,7 @@ function addOne(num) {
 // console.log(addOne(5)); //6
 //Expression function or variable function
 // addTwo(5);//We can't call function before the function in expression function case it occurs error or Cannot access 'addTwo' before initialization (Hoisting Concept we can learn in ahead)
-const addTwo = function (num) {
-  return num + 2;
-};
-addTwo(5);
+// const addTwo = function (num) {
+//   return num + 2;
+// };
+// addTwo(5);
